@@ -11,7 +11,7 @@ function App() {
       <section className="w-full h-screen backGround ">
         <nav className="flex items-center justify-between py-[2%] px-[6%]">
           <a href="">
-            <img className="w-[150px]" src="public/logo.png" alt="" />
+            <img className="w-[150px]" src="/logo.png" alt="" />
           </a>
           <i onClick={()=>setIsOpenDrwaer(true)} className="fa fa-bars hidden max-sm:block text-white m-[10px] text-[22px] cursor-pointer"></i>
 
@@ -134,7 +134,7 @@ function App() {
           <div className="basis-[32%] rounded-[10px] mb-[30px] relative overflow-hidden">
             <img
               className="w-full h-full block"
-              src="public/london.png"
+              src="/london.png"
               alt=""
             />
             <div className="bg-transparent w-full h-full absolute top-0 left-0 duration-[0.5s] hover:bg-[#e20000b3] cursor-pointer group">
@@ -147,7 +147,7 @@ function App() {
           <div className="basis-[32%] rounded-[10px] mb-[30px] relative overflow-hidden">
             <img
               className="w-full h-full block"
-              src="public/newyork.png"
+              src="/newyork.png"
               alt=""
             />
             <div className="bg-transparent w-full h-full absolute top-0 left-0 duration-[0.5s] hover:bg-[#e20000b3] cursor-pointer group">
@@ -160,7 +160,7 @@ function App() {
           <div className="basis-[32%] rounded-[10px] mb-[30px] relative overflow-hidden">
             <img
               className="w-full h-full block"
-              src="public/washington.png"
+              src="/washington.png"
               alt=""
             />
             <div className="bg-transparent w-full h-full absolute top-0 left-0 duration-[0.5s] hover:bg-[#e20000b3] cursor-pointer group">
@@ -183,7 +183,7 @@ function App() {
           <div className="basis-[31%] rounded-[10px] mb-[5px] text-left">
             <img
               className="w-full rounded-[10px]"
-              src="public/library.png"
+              src="/library.png"
               alt=""
             />
             <h3 className="text-center font-semibold my-[10px]">
@@ -198,7 +198,7 @@ function App() {
           <div className="basis-[31%] rounded-[10px] mb-[5px] text-left">
             <img
               className="w-full rounded-[10px]"
-              src="public/basketball.png"
+              src="/basketball.png"
               alt=""
             />
             <h3 className="text-center font-semibold my-[10px]">
@@ -213,7 +213,7 @@ function App() {
           <div className="basis-[31%] rounded-[10px] mb-[5px] text-left">
             <img
               className="w-full rounded-[10px]"
-              src="public/cafeteria.png"
+              src="/cafeteria.png"
               alt=""
             />
             <h3 className="text-center font-semibold my-[10px]">
@@ -238,7 +238,7 @@ function App() {
           <div className="basis-[44%] rounded-[10px] mb-[5%] text-left bg-[#fff3f3] p-[25px] cursor-pointer flex">
             <img
               className="h-[40px] ml-[5px] mr-[3px] rounded-[50%]"
-              src="public/user1.jpg"
+              src="/user1.jpg"
               alt=""
             />
             <div>
@@ -261,7 +261,7 @@ function App() {
           <div className="basis-[44%] rounded-[10px] mb-[5%] text-left bg-[#fff3f3] p-[25px] cursor-pointer flex">
             <img
               className="h-[40px] ml-[5px] mr-[3px] rounded-[50%]"
-              src="public/user2.jpg"
+              src="/user2.jpg"
               alt=""
             />
             <div>
